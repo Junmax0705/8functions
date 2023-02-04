@@ -1,0 +1,145 @@
+.contact-info {
+    font-size:12px;
+}
+.nav-links {
+    font-size:19px;
+    font-weight: 500;
+    color: black !important;
+}
+.nav-links:hover {
+    color: green !important;
+}
+.nav-items {
+    margin-right: 100px;
+    padding: 5px;
+}
+.nav-icon {
+    margin-right: 15px;;
+} 
+.cart {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+}
+.cart p {
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: greenyellow;
+    color: white;
+}
+#container1 {
+    display:flex;
+    margin-bottom: 30px;
+    margin-right: 0px;
+}
+#root {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.sidebar {
+    width: 30%;
+    border-radius: 15px;
+    background-color: #eee;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid black;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 15px;
+}
+.img-box {
+    width:100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center; 
+    border-radius: 10px;  
+}
+.bottom {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+}
+h2 {
+    font-size: 20px;
+    color:green;
+}
+button {
+    width: 100%;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 25px;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
+button:hover {
+    background-color: #333;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #aaa;
+    border-radius: 3px;
+    margin: 10px 10px;
+}
+.row-img {
+    width: 10px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+}
+.rowimg {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    border:2px solid green;
+}
+.fa.trash:hover {
+    cursor: pointer;
+    color: #333;    
+}
+.button-group {
+    margin: 100px;
+    border-radius: 10px;
+}
